@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Calibri', Helvetica, Arial;
+    background-color: #0f1c2b;
+}
+
+/* ##### MENU ##### */
+.logo{
+    margin: 10px 10px 0px 350px;
+    position: relative;
+    z-index: 10;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand:HOVER{
+    color: #8698ae;
+}
+
+.nav-link{
+    color: white;
+}
+
+nav li .nav-item{
+    color: white;
+}
+
+nav ul .nav-link:HOVER{
+    color: #8698ae;
+}
+
+.dropdown{
+    color: #8698ae;
+}
+
+.d-flex{
+    margin-right: 350px;
+    margin-top: 5px;
+}
+
+/* ##### FOOTER ##### */
+footer{
+    width: 100%;
+    background-color: #213041;
+    text-align: center;
+    color: white;
+    padding: 40px 0px 100px 0px;
+}
+
+.textoFooter{
+    float: left;
+    color:#8698ae;
+    margin-left: 350px;
+    text-align: left;
+}
+
+footer ul{
+    list-style-type: none;
+}

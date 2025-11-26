@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Calibri', Helvetica, Arial;
+    background-color: #0f1c2b;
+    color: white;
+}
+.inputAvaliacao{
+    color: black;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+/*ESTRELA
+:root {
+    --amarelo: #ffcc00;
+    --cinza: #cccccc;
+}
+
+/* Não exibir o input radio /
+.estrelas input[type=radio] {
+    display: none;
+}
+
+/* Criar as estrelas preenchidas de amarelo/
+.estrelas label i.opcao.fa:before {
+    content: '\F586';
+    color: var(--amarelo);
+}
+
+/* Atribuir o cinza nas estrelas, quando selecionar a estrela retirar o cinza/
+.estrelas input[type=radio]:checked~label i.fa:before {
+    color: var(--cinza);
+}
+
+/* Personalizar a estrela preenchida /
+.estrela-preenchida {
+    color: var(--amarelo);
+}
+
+/* Personalizar a estrela vazia /
+.estrela-vazia{
+    color: var(--cinza);
+}
+*/
