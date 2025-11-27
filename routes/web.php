@@ -20,9 +20,10 @@ Route::get('/consultar',[\App\Http\Controllers\registroController::Class,'consul
 Route::get('/editar/{id}',[\App\Http\Controllers\registroController::Class,'editar']);
 Route::get('/atualizar/{id}',[\App\Http\Controllers\registroController::Class,'atualizar']);
 Route::get('/excluir/{id}',[\App\Http\Controllers\registroController::Class,'excluir']);
-Route::get('/cadastrarUsuario',[\App\Http\Controllers\registroController::Class,'cadastrarUsuario']);
-Route::get('/cadastrarUsuario/salvar',[\App\Http\Controllers\registroController::Class,'inserirUsuario']);
-Route::get('/consultarUsuario',[\App\Http\Controllers\registroController::Class,'consultarUsuario']);
-Route::get('/editarUsuario/{id}',[\App\Http\Controllers\registroController::Class,'editarUsuario']);
-Route::get('/atualizarUsuario/{id}',[\App\Http\Controllers\registroController::Class,'atualizarUsuario']);
-Route::get('/excluirUsuario/{id}',[\App\Http\Controllers\registroController::Class,'excluirUsuario']);
+Route::get('/cadastrarUsuario',[\App\Http\Controllers\usuarioController::Class,'cadastrarUsuario']);
+Route::get('/cadastrarUsuario/salvar',[\App\Http\Controllers\usuarioController::Class,'inserirUsuario']);
+Route::get('/consultarUsuario',[\App\Http\Controllers\usuarioController::Class,'consultarUsuario']);
+Route::get('/editarUsuario/{id}',[\App\Http\Controllers\usuarioController::Class,'editarUsuario']);
+Route::get('/atualizarUsuario/{id}',[\App\Http\Controllers\usuarioController::Class,'atualizarUsuario']);
+Route::get('/excluirUsuario/{id}',[\App\Http\Controllers\usuarioController::Class,'excluirUsuario']);
+Route::get('/login',[\App\Http\Controllers\usuarioController::Class,'login']);

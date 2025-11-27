@@ -226,6 +226,11 @@ footer{
     text-align: left;
 }
 
+.textoFooter a{
+    text-decoration: none;
+    color: white;
+}
+
 footer ul{
     list-style-type: none;
 }

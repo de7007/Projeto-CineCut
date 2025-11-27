@@ -7,6 +7,7 @@ body{
     font-family: 'Calibri', Helvetica, Arial;
     background-color: #0f1c2b;
     color: white;
+    height: 1200px;
 }
 /* ##### MENU ##### */
 .logo{
@@ -55,13 +56,19 @@ nav ul .nav-link:HOVER{
     margin-right: 350px;
     margin-top: 5px;
 }
-
-/*###### CONTEUDO ######*/
-.inputAvaliacao{
-    color: black;
-    background-color: white;
+.btn .btn-success{
+    margin-left: 500px;
 }
 
+/*###### CONTEUDO #####*/
+.form-control{
+    background-color: #0f1c2b;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
+}
 /* ##### FOOTER ##### */
 footer{
     width: 100%;
@@ -86,42 +93,3 @@ footer{
 footer ul{
     list-style-type: none;
 }
-
-
-
-
-
-
-
-/*ESTRELA
-:root {
-    --amarelo: #ffcc00;
-    --cinza: #cccccc;
-}
-
-/* Não exibir o input radio /
-.estrelas input[type=radio] {
-    display: none;
-}
-
-/* Criar as estrelas preenchidas de amarelo/
-.estrelas label i.opcao.fa:before {
-    content: '\F586';
-    color: var(--amarelo);
-}
-
-/* Atribuir o cinza nas estrelas, quando selecionar a estrela retirar o cinza/
-.estrelas input[type=radio]:checked~label i.fa:before {
-    color: var(--cinza);
-}
-
-/* Personalizar a estrela preenchida /
-.estrela-preenchida {
-    color: var(--amarelo);
-}
-
-/* Personalizar a estrela vazia /
-.estrela-vazia{
-    color: var(--cinza);
-}
-*/
