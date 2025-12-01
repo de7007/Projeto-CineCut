@@ -1,6 +1,6 @@
 <x-layout titulo="login">
     <head>
-        <link rel="stylesheet" href="letterboxd-main/filmes/telas/css/login.css">
+        <link rel="stylesheet" href="letterboxd-main/filmes/css/login.css">
     </head>
     <header>
         <!-- Barra de tarefas -->
@@ -34,7 +34,7 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                        <button class="btn btn-success" type="submit">Pesquisar</button>
+                        <button class="btn btn-secondary" type="submit">Pesquisar</button>
                     </form>
                 </div>
             </div>

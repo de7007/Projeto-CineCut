@@ -6,9 +6,8 @@
 body{
     font-family: 'Calibri', Helvetica, Arial;
     background-color: #0f1c2b;
-    color: white;
-    height: 1200px;
 }
+
 /* ##### MENU ##### */
 .logo{
     margin: 10px 10px 0px 350px;
@@ -25,7 +24,6 @@ nav{
     font-size: larger;
     margin-bottom: 50px;
 }
-
 
 .navbar-brand{
     color: white;
@@ -56,12 +54,44 @@ nav ul .nav-link:HOVER{
     margin-right: 350px;
     margin-top: 5px;
 }
-.btn .btn-success{
-    margin-left: 500px;
+
+/*######## LOGIN ###########*/
+main{
+    display: flex;
+    justify-content: center;
+}
+.login-container {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    background-color: #0f1c2b;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 320px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
 }
 
-/*###### CONTEUDO #####*/
-.form-control{
+.login-container h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-container input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
     background-color: #0f1c2b;
     color: white;
     border-style: solid;
@@ -69,8 +99,28 @@ nav ul .nav-link:HOVER{
     border-color: #434e5c;
     border-radius: 15px;
 }
+
+.login-container a{
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #741919;
+}
 /* ##### FOOTER ##### */
 footer{
+    margin-top: 15%;
     width: 100%;
     background-color: #213041;
     text-align: center;

@@ -1,6 +1,6 @@
 <x-layout titulo="Cadastrar">
     <head>
-        <link rel="stylesheet" href="letterboxd-main/filmes/telas/css/cadastrar.css">
+        <link rel="stylesheet" href="letterboxd-main/filmes/css/cadastrar.css">
     </head>
     <body>
         <header>
@@ -19,24 +19,27 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Filmes</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Saiba Mais
+                                Mario
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="cadastrarUsuario">Cadastre-se</a></li>
-                                    <li><a class="dropdown-item" href="login">Login</a></li>
+                                    <li><a class="dropdown-item" href="usuario">Perfil</a></li>
+                                    <li><a class="dropdown-item" href="filmes">Filmes</a></li>
+                                    <li><a class="dropdown-item" href="consultar">Avaliações</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="login">Sair</a></li>
                                 </ul>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button class="btn btn-success" type="submit">Pesquisar</button>
+                            <button class="btn btn-secondary" type="submit">Pesquisar</button>
                         </form>
                     </div>
                 </div>
@@ -111,12 +114,12 @@
             </div>
             <br><br>
             <button type="submit" class="btn btn-success" href="consultar">Salvar</button>
-            <a class="btn btn-success" href="/">Voltar</a>
+            <a class="btn btn-success" href="usuario">Voltar</a>
         </form>
         <!-- Footer -->
-        <footer>
+        <footer style=" margin-top: 15%;">
             <div class="textoFooter">
-                <a href="../index.php">Home</a> <a href="../avaliacao.php">Minhas avaliações</a> <a href="../contato.php">Contato</a><br><br>
+                <a href="/">Home</a> <a href="consultar">Minhas avaliações</a> <a href="../contato.php">Contato</a><br><br>
                 <p>© CineCut. Feito por André, Bryan e Thabata, alunos do Senac SBC. Todos os direitos reservados.</p>
             </div>
 

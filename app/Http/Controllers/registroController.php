@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class registroController extends Controller
 {
-    public function paginaInicial(){
+    public function homeCineCut(){
         return view('paginas.index');
     }//fim da pagina inicial
 

@@ -9,6 +9,7 @@ body{
 }
 
 /* ##### MENU ##### */
+
 .logo{
     margin: 10px 10px 0px 350px;
     position: relative;
@@ -22,7 +23,7 @@ nav{
     background-color: transparent;
     font-weight: normal;
     font-size: larger;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 
@@ -58,10 +59,13 @@ nav ul .nav-link:HOVER{
 
 /* ##### CARROSEL ##### */
 .inicio {
+    width: 1200px;
     position: relative;
     text-align: center;
     margin-top: 15px;
     color: white;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .inicio h1{
@@ -74,7 +78,7 @@ nav ul .nav-link:HOVER{
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
-    margin: 0px 0px 30px 350px;
+    margin: 0 auto;
 }
 
 .descricaoBanner h2{
@@ -97,6 +101,7 @@ nav ul .nav-link:HOVER{
 .inicio p{
     color:  #c8d4e4;
     font-size: 20px;
+    margin: 25px 0px;
 }
 
 /* ##### APRESENTAÇÃO ##### */
@@ -105,6 +110,8 @@ nav ul .nav-link:HOVER{
     height: auto;
     margin-left: 350px;
     margin-top: 50px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .apresentacaoTexto h2{
@@ -123,18 +130,31 @@ nav ul .nav-link:HOVER{
 .apresentacaoFotos{
     width: 1200px;
     height: auto;
-    margin: 50px 0px 50px 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+hr{
+    border-width: 1px;
+    border-color: #434e5c;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .apresentacaoFotos .fotos{
     width: 50px;
     height: auto;
+    margin-bottom: 50px;
 }
 
 .comentarios{
     width: 1160px;
     height: auto;
-    margin: 50px 0px 50px 370px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0px 0px 0px;
 }
 
 .comentarios p{
@@ -207,23 +227,39 @@ nav ul .nav-link:HOVER{
     margin: 50px 0px 70px 430px;
     color:#c8d4e4;
     text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0px;
 }
 
 
 /* ##### FOOTER ##### */
 footer{
     width: 100%;
+    height: auto;
     background-color: #213041;
     text-align: center;
     color: white;
-    padding: 40px 0px 100px 0px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .textoFooter{
+    width: 850px;
     float: left;
     color:#8698ae;
     margin-left: 350px;
     text-align: left;
+    font-size: 20px;
+    padding: 50px 0px;
+}
+
+.redes{
+    width: 150px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding-top: 40px;
 }
 
 .textoFooter a{

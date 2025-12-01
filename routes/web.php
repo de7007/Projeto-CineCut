@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[\App\Http\Controllers\registroController::Class,'paginaInicial']);
+Route::get('/',[\App\Http\Controllers\registroController::Class,'homeCineCut']);
 Route::get('/cadastrar',[\App\Http\Controllers\registroController::Class,'cadastrar']);
 Route::get('/cadastrar/salvar',[\App\Http\Controllers\registroController::Class,'inserir']);
 Route::get('/consultar',[\App\Http\Controllers\registroController::Class,'consultar']);
@@ -27,3 +27,4 @@ Route::get('/editarUsuario/{id}',[\App\Http\Controllers\usuarioController::Class
 Route::get('/atualizarUsuario/{id}',[\App\Http\Controllers\usuarioController::Class,'atualizarUsuario']);
 Route::get('/excluirUsuario/{id}',[\App\Http\Controllers\usuarioController::Class,'excluirUsuario']);
 Route::get('/login',[\App\Http\Controllers\usuarioController::Class,'login']);
+Route::get('/usuario',[\App\Http\Controllers\usuarioController::Class,'usuario']);

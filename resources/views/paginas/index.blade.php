@@ -1,6 +1,6 @@
-<x-layout titulo="Pagina Inicial">
+<x-layout titulo="Home - CineCut">
     <head>
-        <link rel="stylesheet" href="letterboxd-main/filmes/telas/css/index.css">
+        <link rel="stylesheet" href="letterboxd-main/filmes/css/index.css">
     </head>
     <body>
         <header>
@@ -12,7 +12,7 @@
                 </figure>
 
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/">CineCut</a>
+                    <a class="navbar-brand" href="/">Cine<strong>Cut</strong></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -36,7 +36,7 @@
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button class="btn btn-success" type="submit">Pesquisar</button>
+                            <button class="btn btn-secondary" type="submit">Pesquisar</button>
                         </form>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
         <!-- Conteúdo principal -->
         <main>
             <div class="inicio">
-                <h1>Bem vindo(a) ao CineCut</h1><br>
+                <h1>Bem vindo(a) ao Cine<strong>Cut</strong></h1><br>
                 <div id="carouselExampleFade" class="carousel slide carousel-fade">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -67,7 +67,7 @@
                         </button>
                         <div class="descricaoBanner">
                             <h2>Acompanhe os maiores blockbusters do mundo do cinema.</h2>
-                            <a type="button" class="btn btn-success" href="cadastrar">Avalie agora</a>
+                            <a type="button" class="btn btn-success" href="login">Avalie agora</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
         <!-- Footer -->
         <footer>
             <div class="textoFooter">
-                <a href="../index.php">Home</a> <a href="../avaliacao.php">Minhas avaliações</a> <a href="../contato.php">Contato</a><br><br>
+                <a href="/">Home</a> <a href="consultar">Minhas avaliações</a> <a href="../contato.php">Contato</a><br><br>
                 <p>© CineCut. Feito por André, Bryan e Thabata, alunos do Senac SBC. Todos os direitos reservados.</p>
             </div>
 

@@ -8,7 +8,11 @@ class usuarioController extends Controller
 {
     public function login(){
         return view('paginas.login');
-    }//fim da pagina inicial
+    }//fim da pagina de login
+    
+    public function usuario(){
+        return view('paginas.usuario');
+    }//fim da pagina de usuario
 
     public function cadastrarUsuario(){
         return view('paginas.cadastrarUsuario');
